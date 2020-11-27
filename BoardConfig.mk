@@ -23,5 +23,8 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/device_framework_co
 # Kernel
 TARGET_KERNEL_CONFIG := asus/X00TD_defconfig
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+
 # Inherit the proprietary files
 include vendor/asus/X00TD/BoardConfigVendor.mk
