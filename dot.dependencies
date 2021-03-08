@@ -1,0 +1,38 @@
+[
+	{
+		"repository": "dotOS-Devices/device_asus_sdm660-common",
+		"target_path": "device/asus/sdm660-common",
+		"remote": "github",
+                "branch": "dot11"
+	},
+	{
+		"repository": "dotOS-Devices/kernel_asus_sdm660",
+		"target_path": "kernel/asus/sdm660",
+		"remote": "github",
+		"branch": "dot11"
+	},
+	{
+		"repository": "dotOS-Devices/vendor_asus_proprietary",
+		"target_path": "vendor/asus",
+		"remote": "github",
+                "branch": "dot11"
+	},
+	{
+		"repository": "Atom-X-Devs/android_hardware_qcom-caf_sdm660_display",
+		"target_path": "hardware/qcom-caf/sdm660/display",
+		"remote": "github",
+		"branch": "sdm660"
+	},
+	{
+		"repository": "Atom-X-Devs/android_hardware_qcom-caf_sdm660_audio",
+		"target_path": "hardware/qcom-caf/sdm660/audio",
+		"remote": "github",
+		"branch": "sdm660"
+	},
+	{
+		"repository": "Atom-X-Devs/android_hardware_qcom-caf_sdm660_media",
+		"target_path": "hardware/qcom-caf/sdm660/media",
+		"remote": "github",
+                "branch": "sdm660"
+	}
+]

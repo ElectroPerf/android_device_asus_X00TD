@@ -1,12 +1,13 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020 The dotOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X00TD.mk
+    $(LOCAL_DIR)/dot_X00TD.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_X00TD-userdebug
-
+    dot_X00TD-eng \
+    dot_X00TD-user \
+    dot_X00TD-userdebug
