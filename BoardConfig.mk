@@ -18,6 +18,7 @@ TARGET_BOOTLOADER_BOARD_NAME := sdm636
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/device_framework_compatibility_matrix.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := asus/X00TD_defconfig
