@@ -17,11 +17,6 @@ function blob_fixup() {
         sed -i 's|/system/framework/|/system/product/framework/|g' "${2}"
         ;;
 
-    # Rename to fp service avoid conflicts
-    vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service_asus.rc)
-        sed -i 's|android.hardware.biometrics.fingerprint@2.1-service|android.hardware.biometrics.fingerprint@2.1-service_asus|g' "${2}"
-        ;;
-
     esac
 }
 
