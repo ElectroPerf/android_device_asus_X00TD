@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "X00TDFrameworksResTarget",
+    product_specific: true,
+    sdk_version: "current",
+}
